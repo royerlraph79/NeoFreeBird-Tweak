@@ -584,7 +584,7 @@ static UIFont *TwitterChirpFont(TwitterFontStyle style) {
            @"icon": @"settings_stroke", @"action": @"showLayoutSettings" },
         @{ @"title": [[BHTBundle sharedBundle] localizedStringForKey:@"MODERN_SETTINGS_TWITTER_BLUE_TITLE"],
            @"subtitle": [[BHTBundle sharedBundle] localizedStringForKey:@"MODERN_SETTINGS_TWITTER_BLUE_SUBTITLE"],
-           @"icon": @"twitter_blue", @"action": @"showTwitterBlueSettings" },
+           @"icon": @"verified_stroke", @"action": @"showTwitterBlueSettings" },
         @{ @"title": [[BHTBundle sharedBundle] localizedStringForKey:@"MODERN_SETTINGS_MEDIA_TITLE"],
            @"subtitle": [[BHTBundle sharedBundle] localizedStringForKey:@"MODERN_SETTINGS_MEDIA_SUBTITLE"],
            @"icon": @"media_tab_stroke", @"action": @"showDownloadsSettings" },
@@ -614,7 +614,8 @@ static UIFont *TwitterChirpFont(TwitterFontStyle style) {
     ];
 
     self.specialThanksCells = @[
-        @{ @"title": @"BandarHelal", @"username": @"BandarHL", @"avatarURL": @"https://unavatar.io/x/BandarHL", @"userID": @"827842200708853762" }
+        @{ @"title": @"BandarHelal", @"username": @"BandarHL", @"avatarURL": @"https://unavatar.io/x/BandarHL", @"userID": @"827842200708853762" },
+        @{ @"title": @"YouGottaBillieve", @"username": @"ugottabillieve", @"avatarURL": @"https://unavatar.io/x/ugottabillieve", @"userID": @"1616194182187732992" } 
     ];
 
     self.officialPageCells = @[
