@@ -9,8 +9,6 @@
 /*Alerts and popups*/
 "RESTART_REQUIRED_ALERT_TITLE" = "Restart required";
 "RESTART_REQUIRED_ALERT_MESSAGE" = "You need to restart Twitter for this change to take effect.";
-"RESTART_NOW_BUTTON_TITLE" = "Restart";
-
 "MODERN_LAYOUT_RESTART_MESSAGE" = "To switch between the modern and classic layouts, you need to restart Twitter";
 
 "RESET_COMPLETE_TITLE" = "Reset successful";
@@ -31,6 +29,8 @@
 "OK_BUTTON_TITLE" = "OK";
 "CANCEL_BUTTON_TITLE" = "Cancel";
 "SAVE_BUTTON_TITLE" = "Save";
+"RESTART_NOW_BUTTON_TITLE" = "Restart";
+"NOT_NOW_BUTTON_TITLE" = "Not now";
 
 /*Main menu start*/
 

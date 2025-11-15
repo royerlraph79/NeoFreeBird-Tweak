@@ -9,7 +9,6 @@
 /*Alerts and popups*/
 "RESTART_REQUIRED_ALERT_TITLE" = "Omstart krävs";
 "RESTART_REQUIRED_ALERT_MESSAGE" = "Du måste starta om Twitter för att ändringen ska träda i kraft.";
-"RESTART_NOW_BUTTON_TITLE" = "Starta om nu";
 "MODERN_LAYOUT_RESTART_MESSAGE" = "För att byta mellan modern och klassisk layout måste du starta om Twitter.";
 
 "CONFIRM_ALERT_MESSAGE" = "Säker på att du menade det?";
@@ -18,6 +17,8 @@
 "OK_BUTTON_TITLE" = "OK";
 "CANCEL_BUTTON_TITLE" = "Avbryt";
 "SAVE_BUTTON_TITLE" = "Spara";
+"RESTART_NOW_BUTTON_TITLE" = "Starta om";
+"NOT_NOW_BUTTON_TITLE" = "Inte nu";
 
 /*Main menu start*/
 
