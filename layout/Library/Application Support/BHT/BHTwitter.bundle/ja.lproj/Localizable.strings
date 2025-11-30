@@ -9,7 +9,6 @@
 /*Alerts and popups*/
 "RESTART_REQUIRED_ALERT_TITLE" = "再起動が必要です";
 "RESTART_REQUIRED_ALERT_MESSAGE" = "この変更を反映するには、Twitterを再起動する必要があります。";
-"RESTART_NOW_BUTTON_TITLE" = "再起動";
 "MODERN_LAYOUT_RESTART_MESSAGE" = "古いレイアウトと新しいレイアウトを切り替えるには、Twitterを再起動する必要があります";
 
 "RESET_COMPLETE_TITLE" = "リセットしました";
@@ -21,10 +20,55 @@
 "OK_BUTTON_TITLE" = "OK";
 "CANCEL_BUTTON_TITLE" = "キャンセル";
 "SAVE_BUTTON_TITLE" = "保存";
+"RESTART_NOW_BUTTON_TITLE" = "再起動";
+"NOT_NOW_BUTTON_TITLE" = "今はしない";
+"CONTINUE_BUTTON_TITLE" = "続行";
 
 /*Main menu start*/
-/*General*/
+/*Settings*/
 
+
+"MODERN_SETTINGS_LAYOUT_TITLE" = "一般";
+"MODERN_SETTINGS_LAYOUT_SUBTITLE" = "カスタムフォント、ナビゲーションバーのテーマなど、その他のオプションを使用してタイムラインを自分好みにカスタマイズできます。";
+
+"MODERN_SETTINGS_MEDIA_TITLE" = "画像と動画";
+"MODERN_SETTINGS_MEDIA_SUBTITLE" = "動画のダウンロード、タイムスタンプの有効化など。";
+
+"MODERN_SETTINGS_TWITTER_BLUE_TITLE" = "Twitter Blue";
+"MODERN_SETTINGS_TWITTER_BLUE_SUBTITLE" = "広告の非表示、ツイートの取り消し、テーマ、カスタムアプリアイコンなどのTwitter Blue機能のロックを解除しましょう。";
+
+"MODERN_SETTINGS_PROFILES_TITLE" = "プロフィール";
+"MODERN_SETTINGS_PROFILES_SUBTITLE" = "ユーザープロフィールに表示されるものを選択できます。";
+
+"MODERN_SETTINGS_TWEETS_TITLE" = "ツイートと返信";
+"MODERN_SETTINGS_TWEETS_SUBTITLE" = "ツイートの外観を変更し、使用しない可能性のある機能を削除します。";
+
+"MODERN_SETTINGS_MESSAGES_TITLE" = "ダイレクトメッセージ";
+"MODERN_SETTINGS_MESSAGES_SUBTITLE" = "Twitterのメッセージ機能をカスタマイズします。";
+
+"MODERN_SETTINGS_SEARCH_TITLE" = "探索と発見";
+"MODERN_SETTINGS_SEARCH_SUBTITLE" = "[検索] タブに表示される内容を変更できます。";
+
+"MODERN_SETTINGS_PRESETS_TITLE" = "プリセット";
+"MODERN_SETTINGS_PRESETS_SUBTITLE" = "構成済みの設定を適用するか、独自の設定をエクスポート/インポートできます。";
+
+"MODERN_SETTINGS_WEB_TITLE" = "ウェブとリンク";
+"MODERN_SETTINGS_WEB_SUBTITLE" = "リンクとTwitterアプリ内ブラウザの動作を調整できます。";
+
+"MODERN_SETTINGS_BRANDING_TITLE" = "ブランド";
+"MODERN_SETTINGS_BRANDING_SUBTITLE" = "Twitterブランドの復元をどの程度反映させるかを調整できます。";
+
+"MODERN_SETTINGS_EXPERIMENTAL_TITLE" = "実験的機能";
+"MODERN_SETTINGS_EXPERIMENTAL_SUBTITLE" = "現在テスト中の機能をお試しください。";
+
+"MODERN_SETTINGS_DEBUG_TITLE" = "デバッグ";
+"MODERN_SETTINGS_DEBUG_SUBTITLE" = "何かが機能しない理由を調べることができます。";
+
+"COOL_KIDS_SECTION_HEADER_TITLE" = "Cool kids";
+"SPECIAL_THANKS_SECTION_HEADER_TITLE" = "特別な感謝";
+"FOLLOW_OFFICIAL_PAGE_SECTION_HEADER_TITLE" = "NeoFreeBirdをフォロー";
+
+/*General*/
 "MAIN_SECTION_HEADER_TITLE" = "一般";
 
 "UPLOAD_CUSTOM_VOICE_OPTION_TITLE" = "音声ツイート";
@@ -156,7 +200,7 @@
 "DM_VOICE_CREATION_DETAIL_TITLE" = "作成バーで音声メッセージの送信者を無効にします。";
 
 
-/*Photos & Videos*/
+/*Photos and Videos*/
 "PHOTOS_VIDEOS_SECTION_HEADER_TITLE" = "画像と動画";
 
 "AUTO_HIGHEST_LOAD_OPTION_TITLE" = "高画質メディア";
@@ -292,7 +336,7 @@
 "COPY_PROFILE_INFO_MENU_OPTION_1" = "プロフィールをコピー";
 "COPY_PROFILE_INFO_MENU_OPTION_2" = "ユーザー名をコピー";
 "COPY_PROFILE_INFO_MENU_OPTION_3" = "名前をコピー";
-"COPY_PROFILE_INFO_MENU_OPTION_4" = "プロフィールリンクをコピー";
+"COPY_PROFILE_INFO_MENU_OPTION_4" = "ウェブサイトをコピー";
 "COPY_PROFILE_INFO_MENU_OPTION_5" = "位置情報をコピー";
 
 /*Theme*/
@@ -340,6 +384,36 @@
 /*Refresh pill text*/
 "REFRESH_PILL_TEXT" = "新しいツイート";
 
+"NOTIF_REPLACE_POST_WITH_TWEET_OPTION_TITLE" = " [投稿] を [ツイート]に置換";
+"NOTIF_REPLACE_POST_WITH_TWEET_DETAIL_TITLE" = "通知パネル内に表示される「投稿」を「ツイート」に置き換えます。これは通知内のすべてのテキストに影響するため、ツイートに「投稿」という単語が含まれている場合は、これも置き換えられてしまいます。";
+
+"COLOR_TWITTER_ICON_OPTION_TITLE" = "Twitterアイコンの色";
+"COLOR_TWITTER_ICON_DETAIL_TITLE" = "上部バーのTwitterアイコンにアクセントカラーを適用できます。";
+
+"REFRESH_PILL_OPTION_TITLE" = "「𓏸𓏸さんがツイートしました」を追加";
+"REFRESH_PILL_DETAIL_TITLE" = "誰かがツイートすると、リフレッシュピルに「○○さんがツイートしました」ラベルが再び表示されるようにします。このラベルは他の場所でも(誤って)表示される可能性があります。";
+
+/*Presets*/
+
+"PRESETS_IMPORT_SUCCESS_TITLE" = "インポートしました";
+"PRESETS_IMPORT_SUCCESS_MESSAGE" = "プリセットをインポートしました。";
+
+"PRESETS_IMPORT_FAILURE_TITLE" = "インポートできませんでした";
+"PRESETS_IMPORT_FAILURE_MESSAGE" = "プリセットファイルが無効または破損しています。";
+
+"PRESETS_EXPORT_SUCCESS_TITLE" = "エクスポートしました";
+"PRESETS_EXPORT_SUCCESS_MESSAGE" = "プリセットをエクスポートしました。";
+
+"PRESETS_EXPORT_FAILURE_TITLE" = "エクスポートできませんでした";
+"PRESETS_EXPORT_FAILURE_MESSAGE" = "プリセットのエクスポート中にエラーが発生しました。";
+
+"PRESETS_APPLY_SUCCESS_TITLE" = "プリセットを適用しました";
+"PRESETS_APPLY_SUCCESS_MESSAGE" = "プリセットを適用しました。";
+
+"PRESETS_APPLY_FAILURE_TITLE" = "プリセットを適用できませんでした";
+"PRESETS_APPLY_FAILURE_MESSAGE" = "プリセットの適用中にエラーが発生しました。";
+
+
 /*Deprecated*/
 "TRUSTED_FRIENDS_OPTION_TITLE" = "Twitterサークル";
 
@@ -358,34 +432,63 @@
 "VOICE_OPTION_TITLE" = "音声モード";
 "VOICE_OPTION_DETAIL_TITLE" = "音声を使用してツイートやリプライに返信します。";
 
-/*Modern Settings Layout*/
-
-"MODERN_SETTINGS_LAYOUT_TITLE" = "一般";
-"MODERN_SETTINGS_LAYOUT_SUBTITLE" = "カスタムフォント、ナビゲーションバーのテーマなど、その他のオプションを使用してタイムラインを自分好みにカスタマイズできます。";
-
-"MODERN_SETTINGS_MEDIA_TITLE" = "写真と動画";
-"MODERN_SETTINGS_MEDIA_SUBTITLE" = "動画のダウンロード、タイムスタンプの有効化など。";
-
-"MODERN_SETTINGS_TWITTER_BLUE_TITLE" = "Twitter Blue";
-"MODERN_SETTINGS_TWITTER_BLUE_SUBTITLE" = "広告の非表示、ツイートの取り消し、テーマ、カスタムアプリアイコンなどのTwitter Blue機能のロックを解除しましょう。";
-
-"MODERN_SETTINGS_PROFILES_TITLE" = "プロフィール";
-"MODERN_SETTINGS_PROFILES_SUBTITLE" = "ユーザープロフィールに表示されるものを選択できます。";
-
-"MODERN_SETTINGS_TWEETS_TITLE" = "ツイートと返信";
-"MODERN_SETTINGS_TWEETS_SUBTITLE" = "ツイートの外観を変更し、使用しない可能性のある機能を削除します。";
-
-"MODERN_SETTINGS_MESSAGES_TITLE" = "ダイレクトメッセージ";
-"MODERN_SETTINGS_MESSAGES_SUBTITLE" = "Twitterのメッセージ機能をカスタマイズします。";
-
-"MODERN_SETTINGS_EXPERIMENTAL_TITLE" = "実験的機能";
-"MODERN_SETTINGS_EXPERIMENTAL_SUBTITLE" = "現在テスト中の機能をお試しください。";
-
-"MODERN_SETTINGS_DEBUG_TITLE" = "デバッグ";
-"MODERN_SETTINGS_DEBUG_SUBTITLE" = "何かが機能しない理由を調べることができます。";
-
-"COOL_KIDS_SECTION_HEADER_TITLE" = "クールな子供たち";
-"SPECIAL_THANKS_SECTION_HEADER_TITLE" = "特別な感謝";
-"FOLLOW_OFFICIAL_PAGE_SECTION_HEADER_TITLE" = "NeoFreeBirdをフォロー";
-
 "MODERN_SETTINGS_PLACEHOLDER_TEXT" = "ここには何もありません — 今はまだ。";
+"MODERN_SETTINGS_PLACEHOLDER_DETAIL_TEXT" = "このセクションは近日公開予定です。NeoFreeBirdの今後の機能にご期待ください！";
+
+"SOURCE_UNAVAILABLE" = "ソースは利用できません";
+
+"notif_reposted_your_post_old" = "があなたの投稿をリポストしました";
+"notif_reposted_your_Post_old" = "があなたの投稿をリポストしました";
+"notif_Reposted_your_post_old" = "があなたの投稿をリポストしました";
+"notif_Reposted_your_Post_old" = "があなたの投稿をリポストしました";
+
+"notif_retweeted_your_tweet_new" = "があなたのツイートをリツイートしました";
+"notif_retweeted_your_Tweet_new" = "があなたのツイートをリツイートしました";
+"notif_Retweeted_your_Tweet_new" = "があなたのツイートをリツイートしました";
+
+"notif_your_post_old" = "your post";
+"notif_your_Post_old" = "your Post";
+"notif_your_tweet_new" = "your Tweet";
+"notif_your_Tweet_new" = "your Tweet";
+
+"notif_a_post_old" = "a post";
+"notif_a_Post_old" = "a Post";
+"notif_a_tweet_new" = "a Tweet";
+"notif_a_Tweet_new" = "a Tweet";
+
+"notif_new_post_old" = "new post";
+"notif_new_Post_old" = "new Post";
+"notif_new_tweet_new" = "new Tweet";
+"notif_new_Tweet_new" = "new Tweet";
+
+"notif_New_post_old" = "New post";
+"notif_New_Post_old" = "New Post";
+"notif_New_tweet_new" = "New Tweet";
+"notif_New_Tweet_new" = "New Tweet";
+
+"notif_recent_post_old" = "recent post";
+"notif_recent_Post_old" = "recent Post";
+"notif_recent_tweet_new" = "recent Tweet";
+"notif_recent_Tweet_new" = "recent Tweet";
+
+"notif_Recent_post_old" = "Recent post";
+"notif_Recent_Post_old" = "Recent Post";
+"notif_Recent_tweet_new" = "Recent Tweet";
+"notif_Recent_Tweet_new" = "Recent Tweet";
+
+"notif_reposted_old" = "reposted";
+"notif_Reposted_old" = "Reposted";
+"notif_retweeted_new" = "retweeted";
+"notif_Retweeted_new" = "Retweeted";
+
+"notif_pinned_Post_old" = "New pinned Post";
+"notif_pinned_Tweet_new" = "New pinned Tweet";
+
+"notif_your_Posts_old" = "your Posts";
+"notif_your_Tweets_new" = "your Tweets";
+
+"notif_repost_old" = "repost";
+"notif_retweet_new" = "retweet";
+
+"notif_Repost_old" = "Repost";
+"notif_Retweet_new" = "リツイート";
